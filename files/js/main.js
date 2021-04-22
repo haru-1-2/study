@@ -1,12 +1,10 @@
 $(function () {
-
   const $win = $(window);
 
-  (function() {
-	  const $btnMenu = $('.btn-menu');
-	  const $nav = $('header > nav');
-	  const isAnimate = 'is-animate';
-	  const isOpen = 'is-open';
+  const $btnMenu = $('.btn-menu');
+  const $nav = $('header > nav');
+  const isAnimate = 'is-animate';
+  const isOpen = 'is-open';
 
   $btnMenu.on('click', function () {
     const $this = $(this);
@@ -31,22 +29,22 @@ $(function () {
         $nav.hide();
       }
     }
-  });();
+  });
 
-  (function() {
-  	$win.on('scroll', function() {
-  		const $heading = $('.mask_inner');
-  		const isAnimate = 'is-animate';
-  		$heading.each(function () {
-  			const $this = $(this);
-  			const headingTop = $this.offset().top;
-  			const scrollPos = $win.scrollTop();
-  			const wh = $win.height();
-  			id (scrollPos > headingTop - wh + (wh / 4)) {
-  				$this.addClass(isAnimate);
-  			}
-  		});
-  	});
-  })();
+
+  $win.on('scroll', function () {
+    const $heading = $('.mask_inner');
+    const isAnimate = 'is-animate';
+    $heading.each(function () {
+      const $this = $(this);
+      const headingTop = $this.offset().top;
+      const scrollPos = $win.scrollTop();
+      const wh = $win.height();
+      if (scrollPos > headingTop - wh + (wh / 4)) {
+        $this.addClass(isAnimate);
+      }
+    });
+  });
+
 
 });
