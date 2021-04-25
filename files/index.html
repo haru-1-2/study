@@ -1,182 +1,203 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Document</title>
-	<link rel="stylesheet" href="./css/master.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="./js/main.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/master.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="./js/main.js"></script>
 </head>
+
 <body>
-	<button type="button" class="btn-menu">
-		<span class="btn-menu-lines"></span>
-	</button>
-
-	<header>
-		<nav>
-			<ul class="nav-main">
-				<li><a href="#top">Home</a></li>
-				<li><a href="#vision">Vision</a></li>
-				<li><a href="#service">Service</a></li>
-				<li><a href="#news">News</a></li>
-				<li><a href="#company">Company</a></li>
-				<li><a href="#Recruit">Recruit</a></li>
-				<li><a href="/contact/">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-
-	<main>
-		<section class="main-visual">
-			<video autoplay muted loop>
-				<source src="./images/movie.mp4" type="video/mp4">
-			</video>
-			<h1>
-				<img src="./images/logo.png" alt="Movie Create">
-			</h1>
-		</section>
-
-		<section id="vision" class="vision">
-			<div class="section-inner">
-				<div class="heading-wrapper">
-					<h2 class="mask_inner is-animate">Vision</h2>
-				</div>
-				<p>テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト</p>
-				<p>テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト</p>
-				<p>テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト</p>
-			</div>
-		</section>
-
-		<section id="service" class="service">
-			<div class="section-inner">
-				<div class="heading-wrapper">
-					<h2 class="mask_inner">Service</h2>
-				</div>
-				<div class="card-wrap">
-					<div class="card">
-						<figure>
-							<img src="./images/service_01.jpg">
-							<figcaption>サービス①</figcaption>
-						</figure>
-						<div class="card-text">
-							<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-						</div>
-					</div>
-					<div class="card">
-						<figure>
-							<img src="./images/service_02.jpg">
-							<figcaption>サービス②</figcaption>
-						</figure>
-						<div class="card-text">
-							<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-						</div>
-					</div>
-					<div class="card">
-						<figure>
-							<img src="./images/service_03.jpg">
-							<figcaption>サービス③</figcaption>
-						</figure>
-						<div class="card-text">
-							<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section id="news" class="news">
-			<div class="section-inner">
-				<div class="heading-wrapper">
-					<h2 class="mask_inner">News</h2>
-				</div>
-				<ul class="list-news">
-					<li>
-						<span>2020.4.30</span>
-						<p class="title">ニュースタイトルニュースタイトルニュースタイトルニュースタイトルニュースタイトルニュースタイトルニュースタイトル</p>
-					</li>
-					<li>
-						<span>2020.4.30</span>
-						<p class="title">ニュースタイトルニュースタイトル</p>
-					</li>
-					<li>
-						<span>2020.4.30</span>
-						<p class="title">ニュースタイトルニュースタイトルニュースタイトルニュースタイトルニュースタイトルニュースタイトルニュースタイトル</p>
-					</li>
-					<li>
-						<span>2020.4.30</span>
-						<p class="title">ニュースタイトルニュースタイトル</p>
-					</li>
-				</ul>
-			</div>
-		</section>
-
-		<section id="company" class="company">
-			<div class="section-inner">
-				<div class="box-company">
-					<div class="heading-wrapper">
-						<h2 class="mask_inner">Company</h2>
-					</div>
-					<table>
-						<tbody>
-							<tr>
-								<th>会社名</th>
-								<td>株式会社MOVIE CREATE</td>
-							</tr>
-							<tr>
-								<th>代表取締役</th>
-								<td>テキスト</td>
-							</tr>
-							<tr>
-								<th>所在地</th>
-								<td>〒000-0000<br>
-								テキストテキスト</td>
-							</tr>
-							<tr>
-								<th>電話番号</th>
-								<td>000-0000-0000</td>
-							</tr>
-							<tr>
-								<th>設立</th>
-								<td>2020年4月26日</td>
-							</tr>
-							<tr>
-								<th>資本金</th>
-								<td>100万円</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-				<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1620.786672282858!2d139.72997282770027!3d35.662882115667706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b781be5e467%3A0xe509bf9d93a90408!2z44CSMTA2LTAwMzIg5p2x5Lqs6YO95riv5Yy65YWt5pys5pyo77yX5LiB55uu77yR77yV4oiS77yXIOaWsOWFreacrOacqOODk-ODqyA5Rg!5e0!3m2!1sja!2sjp!4v1578899021351!5m2!1sja!2sjp"></iframe>
-			</div>
-		</section>
-
-		<section id="recruit" class="recruit">
-			<div class="section-inner">
-				<div class="heading-wrapper">
-					<h2 class="mask_inner">Recruit</h2>
-				</div>
-				<div class="recruit-wrap">
-					<div class="recruit-wrap">
-						<div class="recruit-inner">
-							<p>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキ テキストテキストテキストテキストテキスト。</p>
-							<h3>募集職種</h3>
-							<ul class="list-recruit">
-								<li>-　テキストテキスト</li>
-								<li>-　テキストテキスト</li>
-								<li>-　テキストテキスト</li>
-							</ul>
-							<a class="btn-01" href="/contact">お問い合わせ</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-	</main>
-
-	<footer>
-		<small>Copyrights © Movie Create Inc. All Rights Reserved.</small>
-	</footer>
+  <button type="button" class="btn-menu">
+    <span class="btn-menu-lines"></span>
+  </button>
+  <header>
+    <nav>
+      <ul class="nav-main">
+        <li>
+          <a href="#top">Home</a>
+        </li>
+        <li>
+          <a href="#vision">Vision</a>
+        </li>
+        <li>
+          <a href="#service">Service</a>
+        </li>
+        <li>
+          <a href="#news">News</a>
+        </li>
+        <li>
+          <a href="#company">Company</a>
+        </li>
+        <li>
+          <a href="#recruit">Recruit</a>
+        </li>
+        <li>
+          <a href="/contact/">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="main-visual">
+      <video autoplay muted loop>
+        <source src="./images/movie.mp4" type="video/mp4">
+      </video>
+      <h1>
+        <img src="./images/logo.png" alt="Movie Create">
+      </h1>
+    </section>
+    <section id="vision" class="vision">
+      <div class="section-inner">
+        <div class="heading-wrapper">
+          <h2 class="mask_inner">
+            <span>Vision</span>
+          </h2>
+        </div>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキスト
+          <br>テキストテキストテキストテキストテキストテキスト</p>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキスト
+          <br>テキストテキストテキストテキストテキストテキスト</p>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキスト
+          <br>テキストテキストテキストテキストテキストテキスト</p>
+      </div>
+    </section>
+    <section id="service" class="service">
+      <div class="section-inner">
+        <div class="heading-wrapper">
+          <h2 class="mask_inner">
+            <span>Service</span>
+          </h2>
+        </div>
+        <div class="card-wrap">
+          <div class="card">
+            <figure>
+              <img src="./images/service_01.jpg">
+              <figcaption>サービス①</figcaption>
+            </figure>
+            <div class="card-text">
+              <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+          </div>
+          <div class="card">
+            <figure>
+              <img src="./images/service_02.jpg">
+              <figcaption>サービス②</figcaption>
+            </figure>
+            <div class="card-text">
+              <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+          </div>
+          <div class="card">
+            <figure>
+              <img src="./images/service_03.jpg">
+              <figcaption>サービス③</figcaption>
+            </figure>
+            <div class="card-text">
+              <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="news" class="news">
+      <div class="section-inner">
+        <div class="heading-wrapper">
+          <h2 class="mask_inner">
+            <span>News</span>
+          </h2>
+        </div>
+        <ul class="list-news">
+          <li>
+            <span>2020.04.30</span>
+            <p class="title">ニュースタイトルニュースタイトルニュースタイトルニュースタイトルニュースタイトルニュースタイトルニュースタイトル</p>
+          </li>
+          <li>
+            <span>2020.04.30</span>
+            <p class="title">ニュースタイトルニュースタイトル</p>
+          </li>
+          <li>
+            <span>2020.04.30</span>
+            <p class="title">ニュースタイトルニュースタイトルニュースタイトルニュースタイトルニュースタイトルニュースタイトルニュースタイトル</p>
+          </li>
+          <li>
+            <span>2020.04.30</span>
+            <p class="title">ニュースタイトルニュースタイトル</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="company" class="company">
+      <div class="section-inner">
+        <div class="box-company">
+          <div class="heading-wrapper">
+            <h2 class="mask_inner">
+              <span>Company</span>
+            </h2>
+          </div>
+          <table>
+            <tbody>
+              <tr>
+                <th>会社名</th>
+                <td>株式会社MOVIE CREATE</td>
+              </tr>
+              <tr>
+                <th>代表取締役</th>
+                <td>テキスト</td>
+              </tr>
+              <tr>
+                <th>所在地</th>
+                <td>〒000-0000
+                  <br> テキストテキスト
+                </td>
+              </tr>
+              <tr>
+                <th>電話番号</th>
+                <td>000-0000-0000</td>
+              </tr>
+              <tr>
+                <th>設立</th>
+                <td>2020年4月26日</td>
+              </tr>
+              <tr>
+                <th>資本金</th>
+                <td>100万円</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1620.786672282858!2d139.72997282770027!3d35.662882115667706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b781be5e467%3A0xe509bf9d93a90408!2z44CSMTA2LTAwMzIg5p2x5Lqs6YO95riv5Yy65YWt5pys5pyo77yX5LiB55uu77yR77yV4oiS77yXIOaWsOWFreacrOacqOODk-ODqyA5Rg!5e0!3m2!1sja!2sjp!4v1578899021351!5m2!1sja!2sjp"></iframe>
+      </div>
+    </section>
+    <section id="recruit" class="recruit">
+      <div class="section-inner">
+        <div class="heading-wrapper">
+          <h2 class="mask_inner">
+            <span>Recruit</span>
+          </h2>
+        </div>
+        <div class="recruit-wrap">
+          <div class="recruit-inner">
+            <p>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキ テキストテキストテキストテキストテキスト。</p>
+            <h3>募集職種</h3>
+            <ul class="list-recruit">
+              <li>- テキストテキスト</li>
+              <li>- テキストテキスト</li>
+              <li>- テキストテキスト</li>
+            </ul>
+            <a class="btn-01" href="/contact">お問い合わせ</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <small>Copyrights © Movie Create Inc. All Rights Reserved.</small>
+    </footer>
+  </main>
 </body>
+
 </html>
